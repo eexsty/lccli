@@ -1,0 +1,8 @@
+[Game]
+1.7 = { dir = "/media/files/Games/.minecraft", java = "default", cosmetics = false }
+1.8 = { dir = "/media/files/Games/.minecraft", java = "default", cosmetics = false }
+1.18 = { dir = "/media/files/Games/.minecraft", java = "default", cosmetics = false }
+# Add other versions here
+
+[JVM]
+args = "-Xms3G -Xmx3G -Xmn1G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
